@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=translate"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <img src="Logo.svg" width="150" alt="Netflix Logo" />
+        <div class="input_buttons">
+          <select name="Language" id="lan">
+            <option value="eng">
+              <span
+                ><img
+                  src="translate_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt="Translate Symbol" /></span
+              >English
+            </option>
+            <option value="hin">
+              <span
+                ><img
+                  src="translate_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt="Translate Symbol" /></span
+              >हिन्दी
+            </option>
+          </select>
+          <button>Sign In</button>
+        </div>
+      </nav>
+      <div class="box"></div>
+      <div class="hero">
+        <span>Unlimited movies, TV shows and more</span>
+        <span>Starts at ₹149. Cancel at any time.</span>
+        <span
+          >Ready to watch? Enter your email to create or restart your
+          membership.</span
+        >
+        <div class="userEmailId">
+          <input type="text" placeholder="Email address" />
+          <button>
+            Get Started &nbsp;
+            <img
+              src="arrow_forward_ios_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.svg"
+              alt="Forward_Arrow"
+            />
+          </button>
+        </div>
+        <div class="seperate">
+        <svg width="100%" height="50" viewBox="0 0 100 50" preserveAspectRatio="none">
+          <path d="M 0 49 Q 50 -30 100 49" stroke="red" stroke-width="6" fill="transparent"/>
+        </svg>
+        <div class="blueShadow"></div>
+      </div>
+        <!-- <div class="seperationLine"></div> -->
+      </div>
+      <span class="trending">Trending Now</span>
+      <div class="trends">
+        <!-- Trending 1 -->
+        <img
+          src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcBQAzZgCcAJyLKGf0x3EjJHKr1h1oCRUQDfVspaHXampP-RjiOkIRlWBz7ViFOvUI1EdPSRcxoOPmB7paPLi52W4OmQZJ4NDMQ.webp?r=a92"
+          alt="1"
+        />
+        <!-- Trending 2 -->
+        <img
+          src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTsIHqmKvuiJaunFg-3M7eRlEBPik8Un-eqTK-od9x48LzeGITagPm82bIopTRvyhIEMehQNdXN2qfj0AVpDTMhftqYStaCieJdbO-jfhSkFUVGBs9eYkpkjdzOj_UCKZi53.webp?r=06c"
+          alt="2"
+        />
+        <!-- Trending 3 -->
+        <img
+          src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcJkAYihjBQ5SjWbwydLdZE8Dm1cJ0whRc21AEIS4V0VO8w65lEDAW5gwzTFTUuNqVTgBcgucwr6rMeRHra3xlru9n1CCtfOm1s.webp?r=e1d"
+          alt="3"
+        />
+        <!-- Trending 4 -->
+        <img
+          src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRB3rewJT09RhxS4rHE_KfiiI3yrHEI3H2KcP4K5AxMBqUOZVM4QeaV9NjNs8CJ4AEjhH_BXKGaSWdOqQgWLNpHFKadmEfFjdf4.webp?r=de2"
+          alt="4"
+        />
+        <!-- Trending 5 -->
+        <img
+          src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABScSAnI47ovoETcYBhKCILXN91D3uCQTeh3aG24EF1iRpP7YNh86hK0eF8JkfKAzdNYZcjcvLy4UB_BpSQgg2AcvjjRMpP6A8C0.webp?r=4bd"
+          alt="5"
+        />
+        <!-- Trending 6 -->
+        <img
+          src="https://occ-0-2087-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABUEGRIx8pMkzIHvS6XmVZgzHYZMG2dIBRVOVc3UXSqbxdOEjKzVBpEWQMUAnSyYy8jTsT6z7eIevymQ1FUCKMQa8UJGMD51Z_noJTVhLAwNamAYy4Iyxhh4gY-cjE0l-skj_.jpg?r=e02"
+          alt="6"
+        />
+        <!-- Trending 7 -->
+        <img
+          src="https://occ-0-2087-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYGTGD-fxq0DEV1gNw-skG1_on4ZqYHYWgmiglVmf-l445vJs-lHgrjJ0SF11rpCQbm4jZx60OfB-w3pLtc8Y3ojBuleqdHUP18.jpg?r=bf7"
+          alt="7"
+        />
+        <!-- Trending 8 -->
+        <img
+          src="https://occ-0-2087-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfKCwYHqXOc7NoyvDKbGwyaMu4d6MYicQZdhKhDBT9U0VvtYkjgZ2-0_i-7Vxa7Ao8hhLGNljeuzNdaikzp2kgkCpz63AuqnIUw.jpg?r=680"
+          alt="8"
+        />
+        <!-- Trending 9-->
+        <img
+          src="https://occ-0-2087-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZyst6jt4Yq-JEjIX8uuXYQ4Qsd_zOsYd6WsuDrpAiw78iqqFZQFjkyU_rl-LyYfrrEc5SD4D4ZWcFt-CwuurxvW_9sW12Z-gf-w_xYcKF7571oLx6v2HrMZzwaojuntQjcy.jpg?r=62a"
+          alt="9"
+        />
+        <!-- Trending 10 -->
+        <img
+          src="https://occ-0-2087-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZs4GW3WDVsjXWM20j8LvVzDMV-rHCT77eb1VVXtATBzEivjiK9_mKgKl3tiHXwZ-9Bzl7hUoIodArSOU7e-c7y7WDmy9aV0RwZEWzmqFdJGwO8RvP9el-x-a5WdISIkX4vG.jpg?r=e48"
+          alt="10"
+        />
+        </div>
+        <div class="reasonTojoin">
+          <span class="first">More reasons to join</span>
+          <div class="cardSections">
+            <div class="cards card1">
+              <div>Enjoy on your TV</div>
+              <div class="second">
+                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                Blu-ray players and more.
+              </div>
+              <img src="Card1Image.png" alt="Cardimage1">
+            </div>
+            <div class="cards card2">
+              <div class="first">Download your shows to watch offline</div>
+              <div class="second">
+                Save your favourites easily and always have something to watch.
+              </div>
+              <img src="Card2Image.png" alt="Cardimage2">
+            </div>
+            <div class="cards card3">
+              <div class="first">Watch everywhere</div>
+              <div class="second">
+                Stream unlimited movies and TV shows on your phone, tablet,
+                laptop and TV.
+              </div>
+              <img src="Card3Image.png" alt="Cardimage3">
+            </div>
+            <div class="cards card4">
+              <div class="first">Create profiles for kids</div>
+              <div class="second">
+                Send kids on adventures with their favourite characters in a
+                space made just for them — free with your membership.
+              </div>
+              <img src="Card4Image.png" alt="Cardimage4">
+            </div>
+          </div>
+        </div>
+        <!-- <div class="faqHeading">Frequently Asked Questions</div>
+        <div class="questions">
+<div class="FAQs q1">What is Netflix?
+</div>
+<div class="FAQs q2">How much does Netflix cost?</div>
+<div class="FAQs q3">Where can I watch?
+</div>
+<div class="FAQs q4">How do I cancel?</div>
+<div class="FAQs q5">What can I watch on Netflix?
+</div>
+<div class="FAQs q6">Is Netflix good for kids?
+</div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

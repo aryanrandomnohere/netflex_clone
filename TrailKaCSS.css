@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-image: url(BackgroundImage.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 70vh;
+  width: 100%;
+  position: relative;
+}
+.main .box {
+  height: 70vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+}
+/* nav{
+    display: flex;
+    margin: auto;
+    max-width: 80vw;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    } */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 80vw;
+  align-items: center;
+  height: 62px;
+}
+nav img {
+  width: 120px;
+  color: red;
+  position: relative;
+  z-index: 10;
+}
+nav .input_buttons {
+  /* background-color: white; */
+  position: relative;
+  z-index: 10;
+}
